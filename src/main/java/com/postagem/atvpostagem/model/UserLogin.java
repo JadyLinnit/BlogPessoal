@@ -5,14 +5,17 @@ private String nome;
 	
     private Long id;
     
-    private String foto;
-
-	private String usuario;
+   private String usuario;
 	
 	private String senha;
 	
 	private String token;
+	
+	 private String foto;
+	    
+	 private String tipo;
 
+	 
 	public String getNome() {
 		return nome;
 	}
@@ -60,4 +63,12 @@ private String nome;
 		this.token = token;
 	}
 
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
 }
