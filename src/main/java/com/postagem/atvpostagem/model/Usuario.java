@@ -51,7 +51,8 @@ public class Usuario {
 	
 	private String tipo;
 
-	
+	public Usuario() {
+	}
 
 	// Primeiro método Construtor - Com os atributos
 	
@@ -65,8 +66,7 @@ public class Usuario {
 
 // Segundo método Construtor - Sem os atributos
 	
-	public Usuario() {
-	}
+	
 
 	public long getId() {
 		return this.id;
