@@ -23,10 +23,6 @@ private String nome;
 		this.nome = nome;
 	}
 
-	public String getUsuario() {
-		return usuario;
-	}
-	
 	public Long getId() {
 		return id;
 	}
@@ -34,12 +30,17 @@ private String nome;
 	public void setId(Long id) {
 		this.id = id;
 	}
+
 	public String getFoto() {
 		return foto;
 	}
 
 	public void setFoto(String foto) {
 		this.foto = foto;
+	}
+
+	public String getUsuario() {
+		return usuario;
 	}
 
 	public void setUsuario(String usuario) {
@@ -69,6 +70,8 @@ private String nome;
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+
+	
 
 	
 
